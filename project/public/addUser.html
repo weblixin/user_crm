@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="http://localhost:3000/users" method="post">
+			<p>用户名：<input type="text" name="username" /></p>
+			<p>密码：<input type="password" name="password" /></p>
+			<p>权限：
+				<select name="powerCode" id="">
+					<option value="">请选择</option>
+					<option value="0">超级管理员</option>
+					<option value="1">普通用户</option>
+				</select>
+			</p>
+			<input type="submit" value="提交"/>
+		</form>
+	</body>
+</html>
